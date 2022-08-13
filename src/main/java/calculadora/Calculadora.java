@@ -1,9 +1,10 @@
+package calculadora;
+
 public class Calculadora {
 
     double valorA = 0;
     double valorB = 0;
     double valorC = 0;
-
 
     public double soma() {
         return valorA + valorB;

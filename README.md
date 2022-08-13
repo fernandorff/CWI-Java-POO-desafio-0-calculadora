@@ -1,4 +1,4 @@
-# Calculadora
+# calculadora.Calculadora
 Como exercício para a aula de hoje deve ser implementado uma calculadora. Todas as operações pedidas devem receber dois números e retornar o resultado da operação. As operações necessárias serão:
 
 * Subtração
@@ -21,7 +21,7 @@ public void deveSomarCorretamenteQuandoOsValoresForemInteiros(){
     double valor1 = 2;
     double valor2 = 2;
     double resultadoEsperado = 4;
-    Calculadora calculadora = new Calculadora();
+    calculadora.Calculadora calculadora = new calculadora.Calculadora();
 
     //Act
     double valorCalculado = calculadora.soma(valor1, valor2);

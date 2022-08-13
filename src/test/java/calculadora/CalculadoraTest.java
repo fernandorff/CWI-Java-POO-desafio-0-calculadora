@@ -1,3 +1,6 @@
+package calculadora;
+
+import calculadora.Calculadora;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -65,7 +68,6 @@ public class CalculadoraTest {
 
     @Test
     public void devePotencializarCorretamenteQuandoNumerosForemInteiros(){
-        // Arrange
         Calculadora calculadora1 = new Calculadora();
         calculadora1.valorA = 6;
         calculadora1.valorB = 3;
@@ -88,7 +90,6 @@ public class CalculadoraTest {
                 +
                 (((calculadora1.valorB * -1) - Math.sqrt(Math.pow(calculadora1.valorB,2) - (4 * calculadora1.valorA * calculadora1.valorC)))/(2* calculadora1.valorA));
         double valorCalculado = calculadora1.bhaskara();
-        System.out.println(valorCalculado);
 
         Assert.assertEquals(valorEsperado, valorCalculado, 0.01);
     }
