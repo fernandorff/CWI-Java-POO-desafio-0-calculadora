@@ -1,7 +1,7 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-public class TestCode {
+public class CalculadoraTest {
 
 
     @Test
