@@ -17,7 +17,7 @@ public class CalculadoraTest {
     }
 
     @Test
-    public void testarSubtracao(){
+    public void deveDividirCorretamenteQuandoNumerosPossuemPontosFlutuantes(){
         Calculadora calculadora1 = new Calculadora();
         calculadora1.A = 6;
         calculadora1.B = 3;
