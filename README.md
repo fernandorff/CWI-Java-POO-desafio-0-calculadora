@@ -1,3 +1,8 @@
+### Code overview SonarQube
+
+![image](https://user-images.githubusercontent.com/101672271/191236382-302039e9-5908-4a65-9731-9e2463f8f20a.png)
+
+
 # calculadora.Calculadora
 Como exercício para a aula de hoje deve ser implementado uma calculadora. Todas as operações pedidas devem receber dois números e retornar o resultado da operação. As operações necessárias serão:
 
